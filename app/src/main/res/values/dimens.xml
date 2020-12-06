@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!--    TabLayout字体大小-->
+    <dimen name="main_tab_size">16sp</dimen>
+</resources>

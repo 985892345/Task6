@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="TabLayoutTextSize">
+        <item name="android:textSize">@dimen/main_tab_size</item>
+    </style>
+
+</resources>
