@@ -57,7 +57,9 @@ public class TopRvAdapter extends RecyclerView.Adapter<TopRvAdapter.TopRvHolder>
                         }
                     }
 
-                    //以下是采用的position来增加，但出现了许多问题，实在是没时间弄了，于是只好以点击按键的相同的文字来增加
+                    //以下是采用的position来增加，但出现了许多问题，问题主要是没弄懂position的机制，在删除某一项后，position有时候不变
+                    //有时候就移位了，实在是没时间弄了，于是只好以点击按键的相同的文字来增加
+                    //要改此问题，还和下面的100行有关
 //                    Log.d(TAG, "换行\ntop: position = " + position);
 //                    Log.d(TAG, "点击的是"+holder.mButton.getText()+"    反应的是"+unChangedFragments.get(position));
 //                    Log.d(TAG, "最开始的top改变数组"+Arrays.toString(fragments.toArray()));
